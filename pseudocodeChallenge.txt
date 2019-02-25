@@ -1,0 +1,46 @@
+Pseudocode Challenge
+
+1. Newton Second Law
+
+STORE 'm' with 600
+STORE 'a' with 2
+CALCULATE 'm' times 'a'
+STORE previous CALCULATE result AS 'F'
+DISPLAY 'F'
+
+
+2. Tahun Kabisat
+
+READ and SAVE 'days'
+IF 'days' modulus 4 equal to 0 and 'days' modulus 100 not equal to 0
+    DISPLAY "Ini Tahun Kabisat"
+ELSE IF 'days' modulus 4 equal to 0 and 'days' modulus 100 equal to 0 
+    and 'days' modulus 400 equal 0
+    DISPLAY "Ini Tahun Kabisat"
+ELSE
+    DISPLAY "Ini Bukan Tahun Kabisat"
+
+
+3. Laundry Day
+
+STORE 'clothes' with 0
+WHILE 'clothes' less than equal to 20
+    DISPLAY "add more clothes"
+    CALCULATE "clothes' add by 1
+    IF 'clothes' equals to 20
+    DO "turn on the washing process"
+
+
+4. Periksa Kuku
+
+STORE 'count' with 0
+STORE 'nail-is-long' as boolean
+WHILE 'count' less than equal to 40
+    IF 'nail-is-long' is true
+        DO "punish the student"
+        CALCULATE 'count' add by 1
+    ELSE  IF 'nail-is-long' is false
+        DO "praise the student"
+        CALCULATE 'count' add by 1
+
+        
