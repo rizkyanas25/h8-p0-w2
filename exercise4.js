@@ -1,6 +1,6 @@
-var tanggal = '';
-var bulan = '';
-var tahun = '';
+var tanggal = '25';
+var bulan = '12';
+var tahun = '2017';
 
 switch (bulan) {
   case '1':
