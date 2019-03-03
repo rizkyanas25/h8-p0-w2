@@ -1,3 +1,4 @@
+console.log('Konversi Menit')
 function konversiMenit(menit) {
     // you can only write your code here!
     var text = ''

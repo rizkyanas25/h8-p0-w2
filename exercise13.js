@@ -1,3 +1,4 @@
+console.log('X O')
 function xo(str) {
     // you can only write your code here!
     var o = 0;

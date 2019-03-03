@@ -1,3 +1,4 @@
+console.log('Balik Kata')
 function balikKata(kata) {
     // you can only write your code here!
     var reverse = ''
