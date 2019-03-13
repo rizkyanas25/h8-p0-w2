@@ -2,6 +2,12 @@ var tanggal = '25';
 var bulan = '12';
 var tahun = '2017';
 
+if ( tanggal < 1 || tanggal > 31) {
+  console.log('Input tanggal antara 1 - 31')
+} else if ( tahun < 1900 || tahun > 2200) {
+  console.log('Input tahun antara 1900 - 2200')
+} else {
+
 switch (bulan) {
   case '1':
     console.log(tanggal+" Januari " + tahun);
@@ -39,5 +45,6 @@ switch (bulan) {
   case '12':
     console.log(tanggal+" Desember " + tahun);
     break;
+}
 }
 
